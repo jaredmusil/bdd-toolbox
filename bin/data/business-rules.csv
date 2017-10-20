@@ -1,0 +1,5 @@
+Business Rule,ID
+Free shipping for orders over 50 USD,300
+Prompt for paperless receipts before user completes purchase,301
+Email receipt after purchase,302
+Send top customers special discount coupons,303

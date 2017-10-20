@@ -1,0 +1,14 @@
+{
+   "Stories": "C:\\dev\\java\\repositories\\customer-collaboration\\R21393_KM_Branch\\src\\test\\resources\\stories\\FrequentlyAskedQuestions",
+   "Requirements": {
+      "Usecases": "C:\\dev\\python\\bdd-toolbox\\bin\\data\\usecases.csv",
+      "Capabilities": "C:\\dev\\python\\bdd-toolbox\\bin\\data\\capabilities.csv",
+      "Business Data": "C:\\dev\\python\\bdd-toolbox\\bin\\data\\business-data-elements.csv",
+      "Business Rules": "C:\\dev\\python\\bdd-toolbox\\bin\\data\\business-data-rules.csv"
+   },
+   "Maven": {
+      "base": "call mvn test serenity:aggregate",
+      "args": "-Pbrowser -Dwebdriver.driver=iexplorer -Dwebdriver.ie.driver=5555 -Dwebdriver.remote.url=http://127.0.0.1:5555/wd/hub -DincludeAllSubFoldersInStoryPath=true -Dserenity.take.screenshots=FOR_FAILURES -Dmaven.test.failure.ignore=true",
+      "m2": "C:\\users\\kbw5\\.m2\\settings.xml"
+   }
+}
